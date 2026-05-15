@@ -31,9 +31,7 @@ npm test
 Repeat multiple times to reproduce intermittent failures:
 
 ```bash
-npm test
-npm test
-npm test
+npx playwright test --repeat-each=5
 ```
 
 ## Expected
